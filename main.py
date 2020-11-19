@@ -40,17 +40,24 @@ print("( 0 )\"\"\"\\")
 print("|\"^\"`    |")
 print("||_/=\\\\__| ")
 
-print("\"아아\\")
+# print("\"아아\\")
 
 # \가 문자열을 출력을 시킬수있나보다
 # \와 |같은 경우는 에러
 # \"\\로 해보니까 "\가 출력됨
 # \"아아\\의 경우는 "아아\ 이런식
 
+# 두 정수 A와 B를 입력받은 다음, A+B를 출력하는 프로그램을 작성하시오.
+# 첫째 줄에 A+B를 출력한다.
 
+# 입력되는 문자를 input()함수로 입력받고 split()함수로 나누어 A,B 변수에 저장
+# int() 함수로 A와 B를 정수로 변환 하고 두수의 합을 출력
 
-A=int(input("0 < A"))
-print(A)
-B=int(input("B < 10"))
+# https://ooyoung.tistory.com/13
 
-print(A+B)
+A, B =input().split()
+print(int(A)+int(B))
+print(int(A)-int(B))
+print(int(A)*int(B))
+print(int(A)/int(B))
+print(int(A)%int(B))
