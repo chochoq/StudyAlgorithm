@@ -2,14 +2,10 @@
 
 function solution(a, b, c) {
     let result;
-    if (a < b) {
-        result = a;
-    }else{
-        result = b;
-    }
-    if (result > c) {
-        result = c;
-    }
+    if (a > b) result = b;
+    else result = a;
+    if (result > c) result = c;
+    
     return result;
 }
 
