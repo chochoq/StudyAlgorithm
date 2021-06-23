@@ -1,2 +1,4 @@
-/.idea/
-Python/venv/
+.idea
+.venv
+.mvn
+.vscode
