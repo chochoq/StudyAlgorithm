@@ -92,3 +92,4 @@ while True: #조건이 명확하지않을 때 while을 자주사용!!
 print(count)
 
 # http://pythontutor.com/live.html#mode=edit
+
