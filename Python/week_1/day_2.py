@@ -5,6 +5,7 @@
 # "hello my name is sparta"
 
 def find_alphabet_array(string):
+    # 알파벳의 숫자만큼 배열을 만들어줌
     alphabet_array = [0]*26
 
     return alphabet_array
