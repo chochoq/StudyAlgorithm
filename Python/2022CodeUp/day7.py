@@ -27,3 +27,32 @@ else:
 
 a = int(input())
 print(bool(a))
+
+# 6053: [기초-논리연산] 참 거짓 바꾸기
+
+a = bool(int(input()))
+print(not a)
+
+# 6054: [기초-논리연산] 둘 다 참일 경우만 참 출력하기
+a, b = input().split()
+
+print(bool(int(a)) and bool(int(b)))
+
+
+# 6055 : [기초-논리연산] 하나라도 참이면 참 출력하기
+a, b = input().split()
+
+print(bool(int(a)) or bool(int(b)))
+
+
+# 6056: [기초-논리연산] 참/거짓이 서로 다를 때에만 참 출력하기
+
+a, b = input().split()
+
+c = bool(int(a))
+d = bool(int(b))
+
+print((c and (not d) or ((not c) and d)))
+
+
+# 6057 : [기초-논리연산] 참/거짓이 서로 같을 때에만 참 출력하기
